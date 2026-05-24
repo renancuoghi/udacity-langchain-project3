@@ -1,0 +1,25 @@
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/      # Temporary autosave files
+*/.ipynb_checkpoints/*   # Checkpoints in subfolders
+
+# --- Python ---
+__pycache__/             # Byte-compiled files
+*.py[cod]                # Compiled Python files
+*$py.class
+*.so                     # C extensions
+
+# --- Virtual Environments ---
+venv/                    # Standard virtual environment folder
+.venv/                   # Alternative venv name
+env/                     # Common local environment folder
+bin/
+lib/
+include/
+
+# --- Environment Variables ---
+.env                     # Sensitive API keys and secrets
+
+# --- Distribution / Packaging ---
+dist/
+build/
+*.egg-info/
